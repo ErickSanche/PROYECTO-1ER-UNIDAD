@@ -1,0 +1,40 @@
+.login-form {
+    background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-form h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .login-form input[type="submit"] {
+    background-color: black;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    background-color: black;
+  }
